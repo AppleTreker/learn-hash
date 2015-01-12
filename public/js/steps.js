@@ -14,4 +14,5 @@ function btn_stepper(code, result) {
         set_html(steps[step_num].html);
         set_editor(steps[step_num].code);
     }
+    return success;
 }
